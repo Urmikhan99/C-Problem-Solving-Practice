@@ -1,3 +1,5 @@
+//https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C
+
 #include<stdio.h>
 int main() 
 {
@@ -7,7 +9,7 @@ int main()
     int a;
     int even = 0, odd = 0, pos = 0, neg = 0;
 
-    for(int i = 1; i <= n; i++)  
+    for(int i = 0; i < n; i++)  // i = 0 থেকে শুরু
     {
         scanf("%d", &a);
 
@@ -16,14 +18,11 @@ int main()
         else 
             odd++;
 
+            
         if (a > 0)
             pos++;
         else if (a < 0)
-        {
             neg++;
-            printf("%d\n", a); // Optional
-        }
-        
     }
 
     printf("Even: %d\nOdd: %d\nPositive: %d\nNegative: %d\n", 
