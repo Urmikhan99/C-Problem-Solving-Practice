@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main() 
+{
+    int n;
+    scanf("%d",&n);
+    int ar[n];
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&ar[i]);
+    }
+    for(int i=0;i<n;i++)
+    {
+        printf("%d",ar[i]);
+    }
+    return 0;
+}
+
+
+
+// for(int i = n - 1; i >= 0; i--) {
+//     printf("%d ", ar[i]);
+// }
+// Loop শেষ index থেকে শুরু (i.e., n-1) করে 0 পর্যন্ত যায়।
+
+// এভাবে array reverse order-এ print হয়।
+
+
+ 
