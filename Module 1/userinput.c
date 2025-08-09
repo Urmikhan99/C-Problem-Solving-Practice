@@ -76,7 +76,7 @@
 int main()
 {   
     double R=100000.0000;    // 🔹 %lf → Long Float (used for double)
-    printf("%lf",R);
+    prinetf("%lf",R);
     return 0;
 }
 

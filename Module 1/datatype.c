@@ -43,5 +43,5 @@ int main()
 // char = single character variable, 44 এর ASCII মান হলো , |
 
 // %c = format specifier to print character(অক্ষর (character) প্রিন্ট করার জন্য format specifier)
-
+ 
 
